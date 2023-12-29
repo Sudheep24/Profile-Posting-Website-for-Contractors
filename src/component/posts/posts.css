@@ -1,0 +1,30 @@
+#searchbar1{
+    border-radius:30px;
+    width: 600px;
+    height:30px;
+    margin-top: 100px;
+}
+.postsub{
+    background-color: rgba(54, 62, 69, 0.45);
+	background-size: 100% 100%;
+	animation: gradient 30s ease infinite;
+	border-radius: 40px;	
+    backdrop-filter: blur(10px);
+    padding: 20px 50px;
+    margin-top: 20px;
+}
+
+
+.grid_view{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.bottombar{
+    background-color: aliceblue;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 10px;
+}

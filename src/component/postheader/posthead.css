@@ -1,0 +1,17 @@
+.conthead{
+    background-color: rgba(54, 62, 69, 0.45);
+	background-size: 100% 100%;
+	animation: gradient 30s ease infinite;
+	border-radius: 40px;	
+    backdrop-filter: blur(10px);
+    padding: 20px 50px;
+}
+.head1{
+    font-size: 4em;
+    font-family:  'Poppins', sans-serif;
+}
+.headsub1{
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+
+}

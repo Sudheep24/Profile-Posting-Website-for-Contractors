@@ -1,0 +1,74 @@
+.header{
+    background-color: rgba(54, 62, 69, 0.45);
+	background-size: 100% 100%;
+	animation: gradient 30s ease infinite;
+	height:87vh;
+	border-radius: 40px;
+	margin-top: -670px;
+	
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+
+
+}
+
+
+
+
+.title{
+    float:left;
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: 250px;
+    width: 100px;
+    color:aliceblue;
+    display: flex;
+}
+
+.title img {
+        width: 1350px;
+        height: 1350px;
+        margin-left: 70px;
+        margin-top: -200px;
+    }
+
+
+.subtag{
+    float: left;
+    margin-top: 10px;
+    margin-left: -100px;
+    font-size: 2em;
+    color: aliceblue;
+}
+.input{
+    margin-top: 700px;
+    
+}
+.searchbox{
+    width: 700px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    padding-left: 20px;
+    margin-left: -100px;
+}
+#search-icon{
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+    /* Media query for phone screens */
+    @media screen and (max-width: 768px) {
+        .title {
+            padding-left: 20px;
+            padding-top: 50px;
+            font-size: 80px;
+            width: auto;
+        }
+    
+        .title img {
+            width: 100%;
+            height: auto;
+            margin-right: 10px;
+            margin-top: -50px;
+        }
+    }

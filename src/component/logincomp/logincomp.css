@@ -1,0 +1,88 @@
+
+
+body{
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Set background size to cover the entire .App element */
+    overflow-x: hidden;
+
+}
+
+
+.loginbox{
+        background-color: rgba(54, 62, 69, 0.45);
+        box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        border-radius: 40px;
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 20px;
+        border-radius: 40px;
+        margin-top: 20px; 
+        height: 800px;
+        
+}
+
+.mainhead{
+    font-size: 7em;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+.subhead{
+    font-size: 1em;
+    padding: 5px;
+}
+.contlog{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    backdrop-filter: blur(50px);
+    padding: 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 40px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 25%;
+
+}
+.leftlog{
+    padding-right:50px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+#username{
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+   
+
+}
+#password{
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.google{
+    width: 250px;
+    height: 35px;
+    background-color:#4285F4;
+    border: none;
+    cursor: pointer;
+    color:aliceblue;
+}
+.logbutt{
+    background-color: aliceblue;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    float: left;
+    margin-top: 10px;
+}
